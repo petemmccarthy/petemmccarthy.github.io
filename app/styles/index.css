@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background: #C0DEED;
+}
+.scroll-arrow-link {
+  margin-left: auto;
+  margin-right: auto;
+}
+  #scroll-arrow {
+    background: url(../images/scroll_arrow.png);
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.main-menu {
+height: 270px;
+background: #343434;
+color: #FFF;
+text-align: center;
+}
+
+.menuitem-welcome {
+  font-size: 40px;
+  font-weight: 200;
+  vertical-align: middle;
+  line-height: 5px;
+  height: 38px;
+  letter-spacing: 0.7px;
+}
+  #menuitem-skills {
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #FFF;
+  }
+  #menuitem-skills:hover {
+    /*border-bottom: 3px solid #4dd2ff;*/
+    transition: 0.2s ease-in-out;
+    /*color: #4dd2ff;*/
+    position: relative;
+    bottom: 1px;
+    opacity: 1;
+  }
+  #menuitem-profile {
+    margin-right: 35px;
+    cursor: pointer;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.5s ease;
+  }
+  #menuitem-profile:hover {
+    /*border-bottom: 3px solid #4dd2ff;*/
+    transition: 0.3s ease-in-out;
+    /*color: #4dd2ff;*/
+    position: relative;
+    bottom: 1px;
+    opacity: 1;
+  }
+  #menuitem-contact {
+    cursor: pointer;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 25px;
+  }
+  #menuitem-contact:hover {
+    /*border-bottom: 3px solid #4dd2ff;*/
+    transition: 0.3s ease-in-out;
+    /*color: #4dd2ff;*/
+    position: relative;
+    bottom: 1px;
+    opacity: 1;
+  }

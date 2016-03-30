@@ -1,0 +1,1 @@
+/Users/petemccarthy/pete/misc/my_site/app/components/my-work.js
