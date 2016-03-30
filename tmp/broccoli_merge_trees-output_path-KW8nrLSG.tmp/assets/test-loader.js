@@ -1,0 +1,1 @@
+/Users/petemccarthy/pete/misc/petemmccarthy.github.io/bower_components/ember-cli-test-loader/test-loader.js

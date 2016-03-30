@@ -1,0 +1,1 @@
+/Users/petemccarthy/pete/misc/my_site/node_modules/ember-cli/lib/broccoli/testem.js
