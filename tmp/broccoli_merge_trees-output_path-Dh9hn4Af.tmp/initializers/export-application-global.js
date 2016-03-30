@@ -1,1 +1,0 @@
-/Users/petemccarthy/pete/misc/petemmccarthy.github.io/tmp/broccoli_merge_trees-input_base_path-Sgtr6lxl.tmp/13/initializers/export-application-global.js
