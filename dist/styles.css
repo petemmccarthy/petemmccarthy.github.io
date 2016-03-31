@@ -2,3 +2,39 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   background: #f0f5f5;
 }
+
+.image-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#profile-picture {
+	border-radius: 50%;
+	height: 150px;
+}
+
+.footer {
+	height: 70px;
+	background: #e0ebeb;
+	color: red;
+  position:fixed;
+  bottom:0;
+  width:110%;
+}
+
+.footer-content-container {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.signature {
+	font-size: 14px;
+	font-weight: 200;
+	margin-left: 25px;
+	-webkit-font-smoothing: antialiased;
+	vertical-align: middle;
+	line-height: 70px;
+}
