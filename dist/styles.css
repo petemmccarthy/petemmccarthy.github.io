@@ -19,7 +19,6 @@ body {
   font-weight: 400
 }
 .profile-image {
-  background-image:url(images/profile.png)
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
