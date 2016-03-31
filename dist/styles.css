@@ -10,16 +10,16 @@ body {
     margin: 0 auto
 }
 .profile-image {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
 }
 .name {
-  font-sty: italic;
+  font-style: italic;
   text-align: left;
   font-weight: 400
 }
@@ -30,47 +30,30 @@ body {
 }
 
 .contact-links-container {
-    margin: 40px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center
+  margin: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center
 }
 .contact-links-container .link {
-    opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    margin: 0 20px
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  margin: 0 20px
 }
 .contact-links-container .link:hover {
-    text-decoration: underline
+  text-decoration: underline
 }
 .contact-links-container .link .fa {
-    margin-bottom: 8px
+  margin-bottom: 8px
 }
 .contact-links-container .show-link {
-    opacity: 1
-}
-
-.footer {
-	height: 70px;
-	background: #e0ebeb;
-	color: red;
-  position:fixed;
-  bottom:0;
-  width:100%;
-}
-
-.footer-content-container {
-	display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  opacity: 1
 }
 
 .copyright {
