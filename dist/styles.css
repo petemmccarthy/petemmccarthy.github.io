@@ -14,6 +14,12 @@ body {
 	height: 150px;
 }
 
+.divider {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #232323
+}
+
 .contact-links-container {
     margin: 40px;
     display: -webkit-box;
