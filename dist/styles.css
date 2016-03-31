@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   background: #f0f5f5;
+  margin: auto;
 }
 
 .image-container {
@@ -19,7 +20,7 @@ body {
 	color: red;
   position:fixed;
   bottom:0;
-  width:110%;
+  width:100%;
 }
 
 .footer-content-container {
