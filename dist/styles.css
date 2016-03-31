@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  background: #f0f5f5;
+  background: #f5f5f5;
   margin: auto;
 }
 
@@ -12,6 +12,33 @@ body {
 #profile-picture {
 	border-radius: 50%;
 	height: 150px;
+}
+
+.contact-links-container {
+    margin: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.contact-links-container .link {
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    margin: 0 20px
+}
+.contact-links-container .link:hover {
+    text-decoration: underline
+}
+.contact-links-container .link .fa {
+    margin-bottom: 8px
+}
+.contact-links-container .show-link {
+    opacity: 1
 }
 
 .footer {
@@ -31,7 +58,7 @@ body {
   display: flex;
 }
 
-.signature {
+.copyright {
 	font-size: 14px;
 	font-weight: 200;
 	margin-left: 25px;
