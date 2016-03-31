@@ -9,7 +9,17 @@ body {
     max-width: 1080px;
     margin: 0 auto
 }
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.name {
+  font-style: italic;
+  text-align: left;
+  font-weight: 400
+}
 .profile-image {
+  background-image:url(images/profile.png)
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -18,11 +28,6 @@ body {
   height: 150px;
   border-radius: 50%
 }
-.name {
-  font-style: italic;
-  text-align: left;
-  font-weight: 400
-}
 .divider {
   width: 90%;
   margin: 0 auto;
@@ -30,6 +35,10 @@ body {
 }
 
 .contact-links-container,
+a {
+    color: #fff;
+    text-decoration: none
+}
 .contact-links-container {
   margin: 40px;
   display: -webkit-box;
