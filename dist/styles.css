@@ -51,10 +51,11 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  text-align: center;
 }
 .contact-links-container .link {
-  opacity: 0;
-  -webkit-transition: opacity .5s ease-in-out;
+  /*opacity: 0;*/
+  /*-webkit-transition: opacity .5s ease-in-out;*/
   transition: opacity .5s ease-in-out;
   margin: 0 20px
 }
@@ -71,10 +72,8 @@ a {
 .copyright {
 	font-size: 14px;
 	font-weight: 200;
-	margin-left: 25px;
+  text-align: center;
 	-webkit-font-smoothing: antialiased;
 	vertical-align: middle;
 	line-height: 70px;
-  position:fixed;
-  bottom:0;
 }
