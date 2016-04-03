@@ -36,7 +36,6 @@ body {
   border-bottom: 1px solid #232323;
 }
 
-.contact-links-container,
 a {
     color: #444;
     text-decoration: none;
@@ -57,13 +56,13 @@ a {
   /*opacity: 0;*/
   /*-webkit-transition: opacity .5s ease-in-out;*/
   transition: opacity .5s ease-in-out;
-  margin: 0 20px
+  margin: 0 15px
 }
 .contact-links-container .link:hover {
   text-decoration: underline
 }
 .contact-links-container .link .fa {
-  margin-bottom: 8px
+  margin-bottom: 5px
 }
 .contact-links-container .show-link {
   opacity: 1
