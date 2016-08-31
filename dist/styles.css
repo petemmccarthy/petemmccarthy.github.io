@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 .contact-links-container {
-  margin: 50px;
+  padding: 50px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -65,7 +65,7 @@ a:focus {
   text-decoration: none;
 }
 #profile {
-  margin: 50px 50px 100px 50px;
+  margin: 0 50px 100px 50px;
   border-top: solid 2px;
   border-bottom: solid 2px;
   border-radius: 5px;
@@ -92,4 +92,14 @@ a:focus {
 	vertical-align: middle;
   padding: 15px 0 15px 0;
   z-index: 1;
+}
+
+@media (max-width: 460px) {
+  .mobile-padding {
+    padding: 40px;
+  }
+  .mobile-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
