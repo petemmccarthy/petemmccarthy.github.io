@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   letter-spacing: .2px;
   -webkit-font-smoothing: antialiased;
-  background-color: #f5f5f5;
+  background-color: #fff;
   color: #444;
   font-weight: 300;
   max-width: 1080px;
@@ -63,6 +63,10 @@ a {
 }
 a:focus {
   text-decoration: none;
+}
+#profile {
+  margin: 50px 50px 100px 50px;
+  border-top: solid 8px;
 }
 .copyright {
   background-color: #f5f5f5;
