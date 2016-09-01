@@ -26,7 +26,7 @@ import imagemin from 'gulp-imagemin'
 
 // Image processing
 gulp.task('images', () => {
-  return gulp.src('./public/images/*.jpg')
+  return gulp.src('./public/images/*.png')
     .pipe(imagemin({ progressive: true }))
     .pipe(gulp.dest('dist/images'))
 })
