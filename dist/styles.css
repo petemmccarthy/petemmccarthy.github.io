@@ -21,6 +21,9 @@ body {
   margin-top: 35px;
   margin-bottom: 5px;
 }
+.work {
+  font-weight: lighter;
+}
 .profile-image {
   background-repeat: no-repeat;
   background-size: contain;
@@ -79,6 +82,11 @@ a:focus {
   padding-top: 30px;
   margin-top: 50px;
 }
+.profile-title {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+}
 .top-link {
   text-align: right;
   padding-bottom: 20px;
@@ -107,6 +115,9 @@ a:focus {
   .mobile-margin {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .mobile-font {
+    font-size: 1.2em;
   }
   #profile {
     padding: 20px;
