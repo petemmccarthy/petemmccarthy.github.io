@@ -1,4 +1,9 @@
-Personal website
-=================
+# Personal website
+This is my personal website displaying contact details, profile and a dowloadable CV.
 
-Very simple site about me built with plain old HTML and CSS. It also incorporates Google Analytics.
+Please visit at www.petemmccarthy.com
+
+### Tech
+
+It is built using HTML, CSS, gulp and node.
+It also incorporates Google Analytics.
