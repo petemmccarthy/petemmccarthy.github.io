@@ -6,3 +6,4 @@ Please visit at www.petemmccarthy.com
 ### Tech
 
 It is built using HTML, CSS, gulp and node.
+It also incorporates Google Analytics.
