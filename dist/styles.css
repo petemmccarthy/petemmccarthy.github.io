@@ -93,6 +93,9 @@ a:focus {
   margin-bottom: 50px;
   margin-right: 60px;
 }
+.education-interests {
+  text-align: center;
+}
 .copyright {
   background-color: #fff;
   position:fixed;
