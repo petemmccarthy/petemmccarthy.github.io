@@ -81,6 +81,7 @@ a:focus {
   border-top: solid 1px #ccc;
   padding-top: 30px;
   margin-top: 50px;
+  margin-bottom: 40px;
 }
 .profile-title {
   text-align: center;
