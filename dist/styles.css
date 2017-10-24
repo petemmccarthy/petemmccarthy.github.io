@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
 }
 .about {
-  margin-top: 80px;
+  padding-top: 80px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -88,7 +88,7 @@ a:focus {
   font-style: italic;
   margin-top: 0px;
 }
-.top-link {
+#top-link {
   text-align: right;
   padding-bottom: 20px;
   margin-bottom: 50px;
