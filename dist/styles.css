@@ -2,7 +2,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   letter-spacing: .2px;
-  -webkit-font-smoothing: antialiased;
   background-color: #fff;
   color: #444;
   font-weight: 300;
@@ -41,6 +40,7 @@ body {
 }
 a {
   color: #444;
+  -webkit-font-smoothing: antialiased;
   text-decoration: none;
 }
 .contact-links-container {
