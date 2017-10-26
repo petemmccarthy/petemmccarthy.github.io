@@ -67,6 +67,9 @@ a {
 a:focus {
   text-decoration: none;
 }
+a:hover {
+  color: grey;
+}
 #profile {
   margin: 0 50px 30px 50px;
   background-color: #fff;
