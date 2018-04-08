@@ -9,11 +9,13 @@ body {
   max-width: 1080px;
   margin: 0 auto;
 }
+
 .about {
   padding-top: 80px;
   margin-bottom: 50px;
   text-align: center;
 }
+
 .name {
   font-style: italic;
   text-align: center;
@@ -21,9 +23,11 @@ body {
   margin-top: 35px;
   margin-bottom: 5px;
 }
+
 .work {
   font-weight: lighter;
 }
+
 .profile-image {
   background-repeat: no-repeat;
   background-size: contain;
@@ -34,15 +38,18 @@ body {
   border-radius: 50%;
   text-align: center;
 }
+
 .divider {
   width: 85%;
   margin: 0 auto;
   border-bottom: 1px solid #232323;
 }
+
 a {
   color: #444;
   text-decoration: none;
 }
+
 .contact-links-container {
   padding: 50px;
   display: -webkit-box;
@@ -55,26 +62,33 @@ a {
   justify-content: center;
   text-align: center;
 }
+
 .contact-links-container .link {
   margin: 0 15px
 }
+
 .contact-links-container .link:hover {
   color: grey;
 }
+
 .contact-links-container .link .fa {
   margin-bottom: 5px;
 }
+
 a:focus {
   text-decoration: none;
 }
+
 a:hover {
   color: grey;
 }
+
 #profile {
   margin: 0 50px 30px 50px;
   background-color: #fff;
   padding: 30px 50px 30px 50px;
 }
+
 .profile-headers {
   text-align: center;
   font-style: italic;
@@ -83,20 +97,24 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 40px;
 }
+
 .profile-title {
   text-align: center;
   font-style: italic;
   margin-top: 0px;
 }
+
 #top-link {
   text-align: right;
   padding-bottom: 20px;
   margin-bottom: 50px;
   margin-right: 60px;
 }
+
 .education-interests {
   text-align: center;
 }
+
 .copyright {
   background-color: #fff;
   position:fixed;
@@ -113,18 +131,22 @@ a:hover {
 }
 
 @media (max-width: 500px) {
+
   .mobile-padding {
     padding: 40px;
   }
-  .mobile-margin {
-    margin-top: 10px;
+
+  .about {
     margin-bottom: 30px;
   }
+
   .mobile-font {
     font-size: 1.2em;
   }
+
   #profile {
     padding: 20px;
     margin: 0 20px 30px 20px;
   }
+
 }
