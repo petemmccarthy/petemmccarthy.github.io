@@ -2,7 +2,16 @@
   "name": "pmm-site",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://petemmccarthy.github.io/pmm-site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petemmccarthy/petemmccarthy.github.io.git"
+  },
+  "author": "Pete M McCarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petemmccarthy/petemmccarthy.github.io/issues"
+  },
+  "homepage": "https://github.com/petemmccarthy/petemmccarthy.github.io#readme",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
