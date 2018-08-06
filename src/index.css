@@ -1,0 +1,13 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .2px;
+  /* background-color: #bee0f7; */
+  background-color: #d6f4ff;
+  color: #444;
+  font-weight: 300;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
