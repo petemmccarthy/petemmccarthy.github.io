@@ -1,13 +1,15 @@
 {
-  "name": "pmm-site",
-  "version": "0.1.0",
+  "name": "petemmccarthy.github.io",
+  "version": "1.0.0",
+  "description": "www.petemmccarthy.com",
   "private": true,
+  "author": "Pete M McCarthy",
+  "license": "MIT",
+  "main": "App.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petemmccarthy/petemmccarthy.github.io.git"
   },
-  "author": "Pete M McCarthy",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/petemmccarthy/petemmccarthy.github.io/issues"
   },
