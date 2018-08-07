@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/petemmccarthy/petemmccarthy.github.io/issues"
   },
-  "homepage": "https://github.com/petemmccarthy/petemmccarthy.github.io#readme",
+  "homepage": "https://github.com/petemmccarthy/petemmccarthy.github.io",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
