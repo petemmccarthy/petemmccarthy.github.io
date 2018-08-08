@@ -207,8 +207,9 @@ a:focus {
 @media (max-width: 850px) {
   .personal-projects, .work {
     float: none;
-    top: 0%;
-    /* width: auto; */
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
   }
 
   .container {
@@ -238,6 +239,10 @@ a:focus {
 
   .contact-links-container {
     margin-bottom: 10px;
+  }
+
+  .personal-projects, .work {
+    margin-left: 10px 20px;
   }
 
   .container .content {
