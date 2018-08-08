@@ -2,18 +2,18 @@ import React from 'react'
 
 import PersonalProjects from './PersonalProjects'
 import Work from './Work'
-import Profile from './Profile'
+import About from './About'
 
 const Home = () => (
 
   <div>
-    <Profile />
+    <About />
     <div className="projects-work">
       <PersonalProjects />
       <Work />
     </div>
   </div>
-  
+
 )
 
 export default Home

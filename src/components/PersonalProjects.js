@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const PersonalProjects = () => (
 
-  <div className="projects box-shadow">
+  <div className="personal-projects box-shadow">
     <div className="container">
       <div className="content">
         <h3>React</h3>
@@ -22,7 +22,7 @@ const PersonalProjects = () => (
       </div>
     </div>
   </div>
-  
+
 )
 
 export default PersonalProjects

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home'
-import About from './components/About'
+import Profile from './components/Profile'
 import MyLinks from './components/MyLinks'
 import PersonalProjectsDetail from './components/PersonalProjectsDetail'
 import WorkDetail from './components/WorkDetail'
@@ -18,7 +18,7 @@ class App extends Component {
       <div>
 
         <div className="details-card box-shadow">
-          <About />
+          <Profile />
           <MyLinks />
         </div>
 

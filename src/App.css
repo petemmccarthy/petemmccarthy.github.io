@@ -53,6 +53,7 @@ a:focus {
   font-style: italic;
   text-align: center;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 .contact-links-container {
   display: -webkit-box;
@@ -64,6 +65,10 @@ a:focus {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
+}
+
+.contact-links-container p {
+  margin: 0;
 }
 
 .contact-links-container .link {
@@ -90,7 +95,7 @@ a:focus {
   color: #7de088;
 }
 
-.profile {
+.about {
   padding: 20px 50px;
 }
 
@@ -99,30 +104,26 @@ a:focus {
   margin: 30px 20px 0 20px;
 }
 
-.projects, .work {
+.personal-projects, .work {
   border-radius: 40px;
   display: inline;
-  background-image: linear-gradient(to bottom right, #484c54, #979ca3);
-}
-
-.projects {
-  float: left;
   width: 49%;
   text-align: center;
   margin-bottom: 70px;
+  background-image: linear-gradient(to bottom right, #484c54, #979ca3);
+}
+
+.personal-projects {
+  float: left;
 }
 
 .work {
   float: right;
-  width: 49%;
-  text-align: center;
-  margin-bottom: 70px;
 }
 
 .container {
   height: 300px;
   overflow: hidden;
-  text-align: center;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -167,6 +168,10 @@ a:focus {
   display: none;
 }
 
+.example-projects {
+  margin: 40px;
+}
+
 .work-experience {
   margin: 60px;
 }
@@ -199,23 +204,44 @@ a:focus {
 }
 
 /* media */
-@media (max-width: 500px) {
-
-  .mobile-padding {
-    padding: 40px;
+@media (max-width: 850px) {
+  .personal-projects, .work {
+    float: none;
+    top: 0%;
+    /* width: auto; */
   }
 
-  .about {
-    margin-bottom: 30px;
-  }
-
-  .mobile-font {
-    font-size: 1.2em;
+  .container {
+    margin-bottom: 10px;
   }
 
   .copyright {
-    font-size: 10px;
-    padding: 5px 0 3px 0;
+    display: none;
+  }
+
+}
+@media (max-width: 500px) {
+
+  h3, p, li {
+    font-size: 14px;
+  }
+
+  .float-right, .float-left {
+    float: none;
+    width: auto;
+  }
+
+  .details-card {
+    width: auto;
+    margin: 10px 15px;
+  }
+
+  .contact-links-container {
+    margin-bottom: 10px;
+  }
+
+  .container .content {
+    top: 0%;
   }
 
 }
