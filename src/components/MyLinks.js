@@ -4,7 +4,7 @@ const MyLinks = () => (
 
   <section className="float-right">
     <h3 className="name">Pete M. McCarthy</h3>
-    <h3 className="">Front End Developer</h3>
+    <h3 className="occupation">Front End Developer</h3>
 
     <div className="contact-links-container">
       <a className="link gmail" href="mailto: pete.m.mccarthy@gmail.com">

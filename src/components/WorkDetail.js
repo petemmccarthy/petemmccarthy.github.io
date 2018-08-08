@@ -6,7 +6,7 @@ const WorkDetail = () => (
   <div className="work-experience">
 
     <section>
-      <b>Software Developer - answerspace Ltd (Dec 2016 – present)</b>
+      <b>Software Developer - answerspace Ltd (Dec 2016 – Jun 2018)</b>
       <ul>
         <li>Focus on Front-End Development of cloud-based data visualisation platform using the D3.JS library and vanilla JavaScript</li>
       </ul>

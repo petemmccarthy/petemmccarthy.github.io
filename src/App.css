@@ -53,8 +53,14 @@ a:focus {
   font-style: italic;
   text-align: center;
   font-weight: 400;
-  margin-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 5px
 }
+
+.occupation {
+  margin-top: 5px
+}
+
 .contact-links-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -216,6 +222,11 @@ a:focus {
     margin-bottom: 10px;
   }
 
+  .home-page-link {
+    position: static;
+    text-align: center;
+  }
+
   .copyright {
     display: none;
   }
@@ -237,6 +248,15 @@ a:focus {
     margin: 10px 15px;
   }
 
+.details-card .profile-image {
+  width: 100px;
+  height: 100px;
+}
+
+  .name {
+    margin-top: 0px;
+  }
+
   .contact-links-container {
     margin-bottom: 10px;
   }
@@ -247,6 +267,10 @@ a:focus {
 
   .container .content {
     top: 0%;
+  }
+
+  .work-experience b {
+    font-size: 14px;
   }
 
 }
