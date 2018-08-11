@@ -5,13 +5,20 @@ const Work = () => (
 
   <div className="work box-shadow">
     <div className="container">
+      <img src="work_code.jpg" alt="people at computer"></img>
       <div className="content">
-        <h3>Software Developer - answerspace</h3>
-        <p>Data visualisation start-up</p>
-        <p><b>Main tech</b> - vanilla JS and <a href="https://www.d3js.org">d3JS</a> library </p>
-        <h3>Front End Developer - British Gas</h3>
-        <p>Rebuilding the British Gas digital journey</p>
-        <p><b>Main tech</b> - <a href="https://www.emberjs.com">EmberJS</a> framework</p>
+        <h2 className="mobile-title">Work Experience</h2>
+
+        <h3>Software Developer</h3>
+        <p><b>Who? </b><a href="https://www.answerspace.com">Answerspace</a> - business-intel start-up</p>
+        <p><b>What? </b>Enhancing the main user interface</p>
+        <p><b>With? </b>Vanilla JS, <a href="https://www.d3js.org">d3.js</a> library and Java</p>
+
+        <h3>Front End Developer</h3>
+        <p><b>Who? </b><a href="https://www.britishgas.co.uk/home-services.html">
+          British Gas</a> - large energy supplier</p>
+        <p><b>What? </b>Rebuilding the online journey</p>
+        <p><b>With? </b><a href="https://www.emberjs.com">EmberJS</a> framework</p>
 
         <p className="details-link">
           <Link to='/work-experience'>More details...</Link>

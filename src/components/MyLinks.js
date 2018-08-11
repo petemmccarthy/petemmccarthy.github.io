@@ -19,7 +19,7 @@ const MyLinks = () => (
         <i className="fa fa-github fa-lg"></i>
         <p>GitHub</p>
       </a>
-      <a className="cv" href="cv/Pete_M_McCarthy_CV.pdf">
+      <a className="link cv" href="cv/Pete_M_McCarthy_CV.pdf">
         <i className="fa fa-file"></i>
         <p>CV</p>
       </a>
