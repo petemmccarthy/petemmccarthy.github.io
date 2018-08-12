@@ -371,16 +371,29 @@ a:focus {
     margin: 0 15px;
   }
 
+  .framework-library {
+    font-size: 16px;
+  }
+
+  .projects-list ul {
+    margin-top: 0;
+  }
+
   .work-experience {
     margin: 15px;
   }
 
-  .work-experience b {
+  .work-experience b, h4 {
     font-size: 14px;
   }
 
   .job-description {
     display: none;
+  }
+
+  .not-found {
+    font-size: 14px;
+    margin: 20px;
   }
 
 }

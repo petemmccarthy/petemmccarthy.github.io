@@ -8,10 +8,10 @@ const NotFound = () => (
       Looks like this page doesn't exist.
     </h2>
     <h2>
-      <Link to='/'> Let's go back!</Link>
+      <i><Link to='/'> Let's go back!</Link></i>
     </h2>
   </div>
-  
+
 )
 
 export default NotFound
