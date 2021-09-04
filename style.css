@@ -1,0 +1,97 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding-top: 50px;
+}
+
+#header_pic_menu {
+  margin: auto;
+  overflow: auto;
+  max-width: 150px;
+  max-height: 150px;
+  padding-top: 200px;
+}
+
+#profile_pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  min-height: 150px;
+  min-width: 150px;
+  position: relative;
+  width: 50%;
+
+}
+
+#about {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+.contact-links-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 30px;
+  text-align: center;
+}
+
+.contact-links-container .link {
+  margin: 15px;
+}
+
+.email:hover {
+  color: #dd4b39;
+  transition: color 0.3s;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+  transition: color 0.3s;
+}
+
+.twitter:hover {
+  color: #1D9BF9;
+  transition: color 0.3s;
+}
+
+.instagram:hover {
+  color: #eb5534;
+  transition: color 0.3s;
+}
+
+footer {
+  bottom: 0;
+  padding: 15px 0 15px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-height: 700px) {
+  #header_pic_menu {
+    padding-top: 70px;
+  }
+}
+
+@media (max-height: 400px) {
+  #header_pic_menu {
+    padding-top: 0px;
+  }
+}
