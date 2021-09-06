@@ -7,7 +7,6 @@ body {
 
 #header_pic_menu {
   margin: auto;
-  overflow: auto;
   max-width: 150px;
   max-height: 150px;
   padding-top: 200px;
@@ -27,11 +26,11 @@ body {
 
 }
 
-#about {
+/* #about {
   padding: 15px 0 15px 0;
   text-align: center;
   width: 100%;
-}
+} */
 
 a {
   color: #444;
@@ -75,13 +74,13 @@ a {
   transition: color 0.3s;
 }
 
-footer {
+/* footer {
   bottom: 0;
   padding: 15px 0 15px 0;
   position: fixed;
   text-align: center;
   width: 100%;
-}
+} */
 
 @media (max-height: 700px) {
   #header_pic_menu {
